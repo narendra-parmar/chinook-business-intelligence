@@ -859,11 +859,7 @@ ORDER BY avg_amount_spent_per_customer DESC;
 
 ---
 
-## 🖼️ Screenshots
-
-> Query output screenshots are available in the presentation file: **`chinook_ppt.pptx`** (Slides 7–20)
-
-The presentation covers visual outputs for:
+## The presentation covers visual outputs for:
 - Top-selling tracks & artists in USA
 - Customer demographic breakdown by country/city
 - Revenue by region
@@ -873,29 +869,3 @@ The presentation covers visual outputs for:
 
 ---
 
-## 🚀 How to Run
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/chinook-sql-analysis.git
-   cd chinook-sql-analysis
-   ```
-
-2. **Set up the Chinook database**
-   - Download the [Chinook Database](https://github.com/lerocha/chinook-database)
-   - Import into MySQL:
-     ```bash
-     mysql -u root -p < Chinook_MySql.sql
-     ```
-
-3. **Run the queries**
-   ```bash
-   mysql -u root -p chinook < chinook_solution_pdf.sql
-   ```
-
-
----
-
-<p align="center">
-  Made with ❤️ by <strong>Narendra Parmar</strong>
-</p>
